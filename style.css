@@ -1,0 +1,313 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body styling */
+body {
+    background-color: #fdfdfd;
+    color: black;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Main heading */
+h1 {
+    font-size: 2.5rem;
+    color: #ff6f61;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+h1 i {
+    margin-right: 10px;
+}
+
+/* Subheading / paragraph under header */
+p {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+/* Horizontal rule styling */
+hr {
+    border: 0;
+    height: 2px;
+    background: #ff6f61;
+    margin: 20px 0;
+}
+h5 {
+    text-align: center;
+    color: #ffffff
+}
+/* Category section heading */
+h2 {
+    font-size: 1.8rem;
+    color: #fff !important;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+h2 i {
+    margin-right: 10px;
+    color: #ff6f61;
+}
+
+/* Category cards */
+.home-cati {
+    background-color: #fff;
+    border: 2px solid #ff6f61;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.home-cati:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.home-cati h3 {
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    color: #ff6f61;
+}
+
+.home-cati h3 i {
+    margin-left: 10px;
+}
+
+.home-cati p {
+    font-size: 1rem;
+    color: #555;
+}
+.home-cati h3:hover {
+    color: aquamarine;
+}
+
+/* Links wrapping the cards */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Contact section */
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #ff6f61;
+    display: flex;
+    align-items: center;
+}
+
+h3 i {
+    margin-right: 8px;
+}
+
+ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+ul li {
+    margin-bottom: 8px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+ul li i {
+    margin-right: 10px;
+    color: #ff6f61;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .home-cati {
+        padding: 15px;
+    }
+
+    .home-cati h3 {
+        font-size: 1.2rem;
+    }
+
+    .home-cati p {
+        font-size: 0.95rem;
+    }
+}
+
+/* -------------------- Back to Home Link -------------------- */
+.back-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #ff6f61;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.back-link i {
+    margin-right: 5px;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+/* -------------------- Header -------------------- */
+h1 {
+    font-size: 2.5rem;
+    color: #ff6f61;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+h1 i {
+    margin-right: 10px;
+}
+
+p {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+/* Horizontal line */
+hr {
+    border: 0;
+    height: 2px;
+    background: #ff6f61;
+    margin: 20px 0;
+}
+
+/* -------------------- Section Heading -------------------- */
+h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+h2 i {
+    margin-right: 10px;
+    color: #ff6f61;
+}
+
+/* -------------------- Category Cards -------------------- */
+.home-cati {
+    background-color: #fff;
+    border: 2px solid #ff6f61;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.home-cati:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.home-cati h3 {
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    color: #ff6f61;
+}
+
+.home-cati h3 i {
+    margin-left: 10px;
+}
+
+.home-cati p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* -------------------- Links -------------------- */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* -------------------- Responsive -------------------- */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .home-cati {
+        padding: 15px;
+    }
+
+    .home-cati h3 {
+        font-size: 1.2rem;
+    }
+
+    .home-cati p {
+        font-size: 0.95rem;
+    }
+
+    .back-link {
+        font-size: 0.95rem;
+    }
+}
+
+/* Uniform food images */
+.food-item-detail .food-image {
+    display: block;
+    width: 100%;             
+    max-width: 400px;        
+    height: 250px;           
+    object-fit: cover;       
+    margin: 0 auto 20px auto; 
+    border-radius: 10px;     
+}
+
+/*Background images*/
+#home-body {
+    background-image: url("images/miguel-joya-GJzCc1IfP5g-unsplash.jpg");
+    background-size: cover;       
+    background-repeat: no-repeat; 
+    background-position: center;  
+    min-height: 100vh;           
+}
+#body-cati {
+    background-image: url("images/back-cati.jpeg");
+    background-size: cover;       
+    background-repeat: no-repeat; 
+    background-position: center;  
+    min-height: 100vh;            
+}
+/*checkboxes*/
+li {
+    color: #6790B8;
+}
